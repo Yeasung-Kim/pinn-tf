@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pinn_tf"
+version = "0.1.0"
+description = "Thermofluid PINN/GAN models"
+authors = [{name="Yeasung Kim", email="ykim296@asu.edu"}]
+dependencies = ["torch", "numpy", "hydra-core"]
